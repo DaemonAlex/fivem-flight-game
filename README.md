@@ -31,8 +31,7 @@ spawnpoint 's_m_m_pilot_01' { x = -933.5282, y = -2969.0061, z = 13.9451 }
 ```
 
 ### Coming up next update
-- Radio with radio channels
-- A label that tells you the closest airports so you know when to change radio frequency.
+- Advanced system or NUI
 
 ## Socials
 Joina my new discord server for support and updates
