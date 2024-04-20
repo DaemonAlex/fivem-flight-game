@@ -6,6 +6,7 @@ FiveM Flight Simulator with plane UI.
 ## Requirements
 - [NativeUI](https://github.com/FrazzIe/NativeUILua/archive/refs/tags/2.1.0.zip)
 - Go into NativeUI/NativeUI.lua and goto line 2676 and change `if Item() == "UIMenuItem" then` to `if type(Item) == "table" and Item.__index == UIMenuItem then`
+- PMA-Voice to make radio work
 
 ## Add this to server.cfg
 ```
