@@ -6,6 +6,10 @@ FiveM Flight Simulator with plane UI.
 
 <img alt="Coming in next update" src="https://github.com/Psykopaten/fivem-flight-game/assets/104300989/f450b0f9-9eee-43fa-8a23-9b2c21e570ca">
 
+
+Preview of up coming features and existing features: https://streamable.com/52hqfk
+
+
 ## Requirements
 - [NativeUI](https://github.com/FrazzIe/NativeUILua/archive/refs/tags/2.1.0.zip)
 - Go into NativeUI/NativeUI.lua and goto line 2676 and change `if Item() == "UIMenuItem" then` to `if type(Item) == "table" and Item.__index == UIMenuItem then`
