@@ -1,0 +1,39 @@
+<!doctype HTML>
+<html>
+    <head>
+        <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+        <link rel="stylesheet" href="css/style.css">
+        <title>flight-radio</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    </head>
+    <body>
+        <div id="radio">
+            <img src="./img/radio.png" alt="">
+
+            <div class="glowing-circle" id="glowing-circle"></div>
+          
+            <button data-toggle="tooltip" title="Leave Frequency" id="onoff" type="submit" name="onoff"></button>
+          
+            <div class="ses-menu">
+                <div><button data-toggle="tooltip" title="Volume Down" id="lower" type="submit" name="lower"></button></div>
+                <div><button data-toggle="tooltip" title="Volume Up" id="raise" type="submit" name="raise"></button></div>
+            </div> 
+
+    
+            <div class="containerr">
+                <div class="channel">
+                    <form id="login-form">
+                        <input id="channel" onKeyUp="if(this.value<1){this.value='1';}" type="number" name="channel" value="" min="0" max="999" placeholder="1-999">
+                        <div class="ph"><button data-toggle="tooltip" title="Connect" id="submit" type="submit" name="connect">CONNECT</button></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <script src="js/script.js" type="text/javascript"></script>
+        
+    </body>
+</html>
