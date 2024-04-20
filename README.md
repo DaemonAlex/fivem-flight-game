@@ -1,6 +1,9 @@
 # fivem-flight-game (WIP)
 FiveM Flight Simulator with plane UI.
 
+## Update 2024 April
+- Added Flight Radio
+
 <img alt="Coming in next update" src="https://github.com/Psykopaten/fivem-flight-game/assets/104300989/f450b0f9-9eee-43fa-8a23-9b2c21e570ca">
 
 ## Requirements
