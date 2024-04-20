@@ -16,6 +16,7 @@ FiveM Flight Simulator with plane UI.
 ensure InteractionMenu
 ensure vehicleControls
 ensure planehud
+ensure flight-radio
 ```
 
 ## Optional
